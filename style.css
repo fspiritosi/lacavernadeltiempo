@@ -1,0 +1,39 @@
+body {
+    font-family: 'Lobster', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+    color: ghostwhite;
+}
+
+.principal{
+    text-align: center;
+}
+
+.principal img {
+    max-width: 100%;
+}
+
+.btn{
+    padding: 5px;
+    border: 1px solid darkgrey;
+    border-radius: 10%;
+    box-shadow: 4px 4px 5px 0px rgba(0,0,0,0.75);
+    background-color: darkgrey;
+    text-decoration: none;
+    color: #343e3d;
+}
+
+.btn:hover{
+    color: white;
+    background-color: #aedcc0;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    max-width: 100%;
+    
+}
